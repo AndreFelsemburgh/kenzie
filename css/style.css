@@ -30,14 +30,23 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 body {}
 
 /* HEADER */
-header {}
-header .container {}
+header {
+    background-color: #45dbfc;
+}
+header .container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+}
 header .linha {}
 header .coluna {}
 header .coluna-esquerda{}
 header .coluna-direita{}
 header .coluna figure {}
-header .coluna img {}
+header .coluna img {
+    max-width: 250px;
+}
 header .coluna h1 {}
 header .coluna p {}
 header .coluna ul {}
