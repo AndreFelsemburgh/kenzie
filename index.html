@@ -4,106 +4,112 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
         <title>Portfólio</title>
     </head>
     <body>
        <header>
-           <!-- Caixa Foto de Perfil -->
-           <div>
-               <figure>
-                   <img src="imagens/andre300.jpeg" alt="André Felsemburgh">
-                   <figcaption>André Felsemburgh</figcaption>
-               </figure>
-           </div>
-
-           <!-- Informações Pessoais -->
-           <div>
-               <h1>André Luis da Silva Felsemburgh</h1>
-               <p>Especialista em Telecomunicações</p>
-               <ul>
-                   <li><a href="mailto:andre.felsemburgh@gmail.com">andre.felsemburgh@gmail.com</a></li>
-                   <li><a href="tel.:5521988011744">(21) 98801-1744</a></li>
-                   <li><a href="">Rua Moraes Cardoso, nº 1584, apto 705, Centro - Nilópolis - RJ</a></li>
-               </ul>
+           <div class="container">
+               
+               <div class="linha">
+                   <!-- Caixa Foto de Perfil -->
+                   <div class="coluna coluna-esquerda">
+                       <figure>
+                           <img src="imagens/andre300.jpeg" alt="André Felsemburgh">
+                           <figcaption class="hidden">André Felsemburgh</figcaption>
+                       </figure>
+                   </div>
+                   <!-- Informações Pessoais -->
+                   <div class="coluna coluna-direita">
+                       <h1>André Luis da Silva Felsemburgh</h1>
+                       <p>Especialista em Telecomunicações</p>
+                       <ul>
+                           <li><a href="mailto:andre.felsemburgh@gmail.com">andre.felsemburgh@gmail.com</a></li>
+                           <li><a href="tel.:5521988011744">(21) 98801-1744</a></li>
+                           <li><a href="">Rua Moraes Cardoso, nº 1584, apto 705, Centro - Nilópolis - RJ</a></li>
+                       </ul>
+                   </div>
+               </div>
            </div>
        </header> 
        <!-- CONTEÚDO PRINCIPAL -->
        <main>
-            <!-- LADO ESQUERDO -->
-            <div>
-                <!-- PERFIL PROFISSIONAL -->
-                <section> 
-                    <h2>Perfil profissional</h2>
-                    <p>Profissional da área de Telecomunicações</p>
-                </section>
-                
-                <!-- ESPECIALIDADES -->
-                <section> 
-                    <h2>Especialidades</h2>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>React JS</li>
-                    </ul>
-                </section>
-
-                <!-- CURSOS -->
-                <section>
-                    <h2>Cursos</h2>
-                    <ul>
-                        <li>HTML5 - Curso em Vídeo</li>
-                        <li>CSS3 - Curso em Vídeo</li>
-                        <li>JavaScript - Serfrontend</li>
-                        <li>React Js - Kenzie Academy</li>
-                    </ul>
-                </section>
-            </div>
-
-            <!-- LADO DIREITO-->
-            <div>
-                <!-- EXPERIÊNCIA -->
-                <section>
-                    <h2>Experiência</h2>
-                    <ul>
-                        <li>
-                            <h3>Facilitador de treinamento</h3>
-                            <strong>Nome da empresa</strong> 
-                            <p>Período: 01/01/2001 - 01/01/2002</p>
-                            <p>Rio de Janeiro - RJ</p>
-                        </li>
-                        <li>
-                            <h3>Facilitador de treinamento</h3>
-                            <strong>Nome da empresa</strong> 
-                            <p>Período: 01/01/2001 - 01/01/2002</p>
-                            <p>Rio de Janeiro - RJ</p>
-                        </li>
-                        <li>
-                            <h3>Facilitador de treinamento</h3>
-                            <strong>Nome da empresa</strong> 
-                            <p>Período: 01/01/2001 - 01/01/2002</p>
-                            <p>Rio de Janeiro - RJ</p>
-                        </li>
-                    </ul>
-                </section>
-
-                <!-- FORMAÇÃO -->
-                <section>
-                    <h2>Formação</h2>
-                    <ul>
-                        <li>
-                            <h3>Facilitador de programação</h3>
-                            <strong>Nome da Instituição</strong>
-                            <p>01/01/2001 - 01/01/2002</p>
-                        </li>
-
-                        <li>
-                            <h3>Facilitador de programação</h3>
-                            <strong>Nome da Instituição</strong>
-                            <p>01/01/2001 - 01/01/2002</p>
-                        </li>
-                    </ul>
-                </section>
+            <div class="container">
+               <div class="linha">
+                   
+                   <!-- LADO ESQUERDO -->
+                   <div class="coluna coluna-esquerda">
+                       <!-- PERFIL PROFISSIONAL -->
+                       <section>
+                           <h2>Perfil profissional</h2>
+                           <p>Profissional da área de Telecomunicações</p>
+                       </section>
+                   
+                       <!-- ESPECIALIDADES -->
+                       <section>
+                           <h2>Especialidades</h2>
+                           <ul>
+                               <li>HTML5</li>
+                               <li>CSS3</li>
+                               <li>JavaScript</li>
+                               <li>React JS</li>
+                           </ul>
+                       </section>
+                       <!-- CURSOS -->
+                       <section>
+                           <h2>Cursos</h2>
+                           <ul>
+                               <li>HTML5 - Curso em Vídeo</li>
+                               <li>CSS3 - Curso em Vídeo</li>
+                               <li>JavaScript - Serfrontend</li>
+                               <li>React Js - Kenzie Academy</li>
+                           </ul>
+                       </section>
+                   </div>
+                   <!-- LADO DIREITO-->
+                   <div class="coluna coluna-direita">
+                       <!-- EXPERIÊNCIA -->
+                       <section>
+                           <h2>Experiência</h2>
+                           <ul>
+                               <li>
+                                   <h3>Facilitador de treinamento</h3>
+                                   <strong>Nome da empresa</strong>
+                                   <p>Período: 01/01/2001 - 01/01/2002</p>
+                                   <p>Rio de Janeiro - RJ</p>
+                               </li>
+                               <li>
+                                   <h3>Facilitador de treinamento</h3>
+                                   <strong>Nome da empresa</strong>
+                                   <p>Período: 01/01/2001 - 01/01/2002</p>
+                                   <p>Rio de Janeiro - RJ</p>
+                               </li>
+                               <li>
+                                   <h3>Facilitador de treinamento</h3>
+                                   <strong>Nome da empresa</strong>
+                                   <p>Período: 01/01/2001 - 01/01/2002</p>
+                                   <p>Rio de Janeiro - RJ</p>
+                               </li>
+                           </ul>
+                       </section>
+                       <!-- FORMAÇÃO -->
+                       <section>
+                           <h2>Formação</h2>
+                           <ul>
+                               <li>
+                                   <h3>Facilitador de programação</h3>
+                                   <strong>Nome da Instituição</strong>
+                                   <p>01/01/2001 - 01/01/2002</p>
+                               </li>
+                               <li>
+                                   <h3>Facilitador de programação</h3>
+                                   <strong>Nome da Instituição</strong>
+                                   <p>01/01/2001 - 01/01/2002</p>
+                               </li>
+                           </ul>
+                       </section>
+                   </div>
+               </div>
             </div>
        </main>
 
@@ -111,9 +117,9 @@
 
        <footer>
         <!-- ENDEREÇOS -->
-        <div>
+        <div class="container">
             <nav>
-                <ul>
+                <ul class="info-contato">
                     <li><a href="mailto:andre.felsemburgh@gmail.com">andre.felsemburgh@gmail.com</a></li>
                     <li><a href="tel.:5521988011744">(21) 98801-1744</a></li>
                     <li><a href="">Rua Moraes Cardoso, nº 1584, apto 705, Centro - Nilópolis - RJ</a></li>
@@ -124,7 +130,7 @@
         <!-- REDES SOCIAIS -->
         <div>
             <nav>
-                <ul>
+                <ul class="redes-sociais">
                     <li><a href=""><img src="imagens/SVG/facebook2.svg" alt=""><p>Facebook</p></a></li>
                     <li><a href=""><img src="imagens/SVG/github.svg" alt=""><p>Github</p></a></li>
                     <li><a href=""><img src="imagens/SVG/instagram.svg" alt=""><p>Instagram</p></a></li>
