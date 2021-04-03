@@ -26,32 +26,83 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
 }
 
+.container {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.coluna {
+    flex-basis: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
 /* BODY */
-body {}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /* HEADER */
 header {
     background-color: #45dbfc;
+    padding-top: 30px;
 }
 header .container {
     background-color: #fff;
-    width: 100%;
-    max-width: 1125px;
-    margin: 0 auto;
+    
 }
-header .linha {}
+header .linha {
+    align-items: center;
+}
 header .coluna {}
-header .coluna-esquerda{}
-header .coluna-direita{}
+header .coluna-esquerda{
+    flex-basis: 30%;
+}
+
+header .coluna-direita{
+    flex-basis: 70%;
+}
+
 header .coluna figure {}
 header .coluna img {
     max-width: 250px;
+    border-radius: 100%;
 }
-header .coluna h1 {}
-header .coluna p {}
-header .coluna ul {}
-header .coluna ul li {}
-header .coluna ul li a {}
+
+header .coluna h1 {
+    font-size: 1.5rem;
+}
+
+header .coluna p {
+    font-size: 1rem;
+    color: #636363;
+}
+
+header .coluna ul {
+    margin-top: 15px;
+}
+
+header .coluna ul li {
+    margin: 0 0 12px;
+}
+
+header .coluna ul li a {
+    font-size: 1rem;
+    color: #000;
+}
 
 
 /* FOOTER */
