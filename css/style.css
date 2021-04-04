@@ -41,7 +41,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
 }
 
 .coluna {
-    flex-basis: 50%;
+    flex-basis: 49%;
 }
 
 .hidden {
@@ -128,14 +128,44 @@ main .linha {}
 main .coluna {}
 main .coluna-esquerda {}
 main .coluna-direita {}
-main .coluna section {}
-main .coluna section h2 {}
-main .coluna section p {}
+
+main .coluna section {
+    border: 1px solid #d4e9ff;
+    margin: 0 0 20px;
+    padding: 20px;
+    min-height: 178px;
+}
+
+main .coluna section h2 {
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+}
+
+main .coluna section p {
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+}
+
 main .coluna section ul {}
-main .coluna section ul li {}
-main .coluna section ul li h3 {}
-main .coluna section ul li strong {}
-main .coluna section ul li p {}
+
+main .coluna section ul li {
+    margin: 0 0 10px;
+}
+
+main .coluna section ul li h3 {
+    font-size: 1.1rem;
+}
+main .coluna section ul li strong {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 5px 0 10px;
+    display: inline-block;
+}
+
+main .coluna section ul li p {
+    font-size: 0.9rem;
+}
 
 
 
